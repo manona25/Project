@@ -46,3 +46,35 @@ ul li a:hover {
 /* End Header */
 
 /* Start Hero */
+.hero{
+   
+    background-image: url(/public/images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-attachment:fixed;
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    margin-left: 200px;
+    line-height: 25px;
+    padding-top:300px ;
+}
+.but{
+    color: #fefeff;
+   background-color: #007BFF;
+    border-radius: 7px;
+    width: 150px;
+    height: 30px;
+    border: #007BFF;
+}
+.container1 h3{
+color:#007BFF ;
+
+}
+
+.container1 p{
+    color: #fefeff;
+    font-size: 15px;
+}
