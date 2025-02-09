@@ -1,19 +1,21 @@
-import React from "react";
 import "./App.css";
-import Flowers from "./Flowers"
+import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import Services from "./components/Services";
 function App() {
   return (
-    <div className="Flower">
-      <h1>The Beauty of Flowers</h1>
-      <p>
-        Flowers are nature’ 
-        vibrant gift, symbolizing beauty, love, and life. 
-        With their variety of colors and fragrances, <br />flowers bring joy, warmth, and inspiration to our surroundings.
-      </p>
-      <div className="APP">
-      <Flowers />
+      <div className="App">
+    <Contacts />
+    <Footer />
+    <Header />
+    <Hero />
+    <Projects />
+    <Services />
       </div>
-    </div>
+  
   );
 }
 
