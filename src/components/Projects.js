@@ -5,14 +5,15 @@ import { DataFeatures } from './Data';
 function Projects() {
   return (
     <div className="projects">
-      <div className="aq"></div>
-      <h2 className="title">PROJECTS</h2>
-      <div className="aw"></div>
-
+      <div className='container4'>
+      <div className="title4">
+      <button className="project-button4">PROJECTS</button>
+      </div>
       <div className="cards-container">
         {DataFeatures.map((feature) => (
           <CardFeatures key={feature.id} feature={feature} />
         ))}
+      </div>
       </div>
     </div>
   );

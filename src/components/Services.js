@@ -1,6 +1,6 @@
 function Services(){
     return(
-      <div class="services">
+    <div class="services">
         <div class="container">
             <button>SERVICES</button>
             <div class="boxs">
@@ -21,7 +21,7 @@ function Services(){
                 </div>
             </div>
         </div>
-     </div>
+    </div>
     );
 }
 export default Services;
