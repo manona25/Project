@@ -1,3 +1,4 @@
+import React from "react";
 import { FaPhone, FaEnvelope, FaFutbol } from "react-icons/fa";
 
 const Contacts = () => {

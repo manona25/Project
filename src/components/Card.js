@@ -1,3 +1,4 @@
+import React from "react";
 function CardFeatures({ feature }) {
   const { img, title, text } = feature;
   return (

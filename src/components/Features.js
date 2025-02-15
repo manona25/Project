@@ -1,4 +1,4 @@
-
+import React from "react";
 import CardFeatures from "./Card";
 import { DataFeatures } from "./Data";
 
