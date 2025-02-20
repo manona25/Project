@@ -5,6 +5,7 @@
 }
 
 /* Start Header */
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -515,19 +516,6 @@ font-size: 18px;
   font-size: 14px;
   color: #000000;
   padding-left: 5px;
-}
-
-.button-proj {
-  border-color: white;
-  background-color: white;
-  border: none;
-  color: #5cd3e4;
-  padding: 10px 0px 10px 90px;
-  cursor: pointer;
-}
-
-.button-proj:hover {
-  color: #064486;
 }
 
 @media (max-width: 1024px) {
