@@ -63,7 +63,7 @@
   display: block;
   width: 0;
   height: 3px;
-  background: linear-gradient(90deg, #007bff, #064486);
+  background: linear-gradient(90deg, #f1a9b2, #c56b78); 
   transition: width 0.3s ease-in-out;
   position: absolute;
   bottom: -3px;
