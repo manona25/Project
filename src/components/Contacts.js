@@ -6,7 +6,7 @@ const Contacts = () => {
     <section className="contact-section">
       <div className="container2">
         <div className="title">
-           <button className="contact-button">CONTACTS</button> 
+          <button className="contact-button">CONTACTS</button> 
         </div>
         <div className="contacts">
           <div className="contact-card">
